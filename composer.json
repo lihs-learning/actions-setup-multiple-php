@@ -1,0 +1,26 @@
+{
+    "name": "lihsai0/setup-php",
+    "type": "library",
+    "description": "test setup multiple php version",
+    "keywords": [
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lihsai0",
+            "email": "lihsai0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "lihsai0\\Demo\\": "src/Demo"
+        }
+    }
+}
+

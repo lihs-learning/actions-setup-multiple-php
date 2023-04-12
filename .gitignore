@@ -1,0 +1,8 @@
+vendor/
+*.cache
+*.log
+composer.lock
+
+mocker-server.pid
+
+
